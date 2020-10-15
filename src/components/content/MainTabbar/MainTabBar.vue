@@ -11,7 +11,7 @@
           <div>首页</div>
         </template>
       </tab-bar-item>
-      <tab-bar-item path="/categories">
+      <tab-bar-item path="/category">
         <template v-slot:item-icon>
           <img src="~assets/img/tabbar/categories.svg" alt="">
         </template>
@@ -22,7 +22,7 @@
           <div>分类</div>
         </template>
       </tab-bar-item>
-      <tab-bar-item path="/shopping-cart">
+      <tab-bar-item path="/cart">
         <template v-slot:item-icon>
           <img src="~assets/img/tabbar/shopping-cart.svg" alt="">
         </template>

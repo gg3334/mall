@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ShoppingCart'
+  name: 'Cart'
 }
 </script>
 
