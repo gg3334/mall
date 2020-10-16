@@ -36,7 +36,7 @@ export default {
       // if(this.imageLoadCounter === this.imageLoadLength){
       //   this.$emit("imageLoad")
       // }
-      if (++this.imageLoadCounter === this.imageLength) {
+      if (++this.counter === this.imagesLength) {
         this.$emit("imageLoad");
       }
     },
