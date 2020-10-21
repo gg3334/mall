@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper" ref="wrapper">
-    <div class="content">
+    <div>
       <slot></slot>
     </div>
   </div>
@@ -57,8 +57,8 @@ export default {
       this.scroll.finishPullUp();
     },
     getScrollY() {
-      return this.scroll ? this.scroll.y : 0
-    }
+      return this.scroll ? this.scroll.y : 0;
+    },
   },
 };
 </script>
